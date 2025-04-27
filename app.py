@@ -65,7 +65,7 @@ with st.sidebar:
 # Load YOLOv8 model
 @st.cache_resource
 def load_model():
-    model_path = "C:/Users/jayve/runs/detect/train30/weights/best.pt"
+    model_path = "best.pt"
     return YOLO(model_path)
 
 model = load_model()
