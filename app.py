@@ -117,7 +117,7 @@ with col2:
         with tab1:
             st.image(result_img, caption="✅ Analysis Complete", use_column_width=True)
             st.success("Detection Complete!")
-            st.ballons()
+            st.snow()
 
             # Detected classes
             st.subheader("📋 Detected Classes:")
